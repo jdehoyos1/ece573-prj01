@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	dt := time.Now().UTC()
+	dt := time.Now()
 	fmt.Printf("Hello world!\n")
 	fmt.Printf("It's ")
 	fmt.Printf("%d-%d-%d %d:%d:%d", dt.Year(), dt.Month(), dt.Day(), dt.Hour(), dt.Minute(), dt.Second())
