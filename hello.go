@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 func main() {
-	//dt := time.Now()
+	dt := time.Now()
 	fmt.Printf("Hello world!\n")
 	fmt.Printf("It's ")
-	//fmt.Printf(dt.Format("02-01-2006 15:04:05"))
-	fmt.Printf(" now and my CWID ending in 9715")
+	fmt.Printf("%d-%d-%d %d:%d:%d", dt.Year(), dt.Month(), dt.Day(), dt.Hour(), dt.Minute(), dt.Second())
+	fmt.Printf(" now and my CWID ending in 9715\n")
 
 }
