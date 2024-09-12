@@ -6,10 +6,9 @@ import (
 )
 
 func main() {
-	dt := time.Now()
-	fmt.Printf("Hello world!\n")
-	fmt.Printf("It's ")
-	fmt.Printf("%d-%d-%d %d:%d:%d", dt.Year(), dt.Month(), dt.Day(), dt.Hour(), dt.Minute(), dt.Second())
-	fmt.Printf(" now and my CWID ending in 9715\n")
+	// Obtener la fecha y hora actual
+	currentTime := time.Now()
 
+	// Mostrar la fecha y hora en formato estándar
+	fmt.Println("Fecha y hora actual:", currentTime.Format("2006-01-02 15:04:05"))
 }
