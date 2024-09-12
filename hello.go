@@ -8,7 +8,7 @@ import (
 func main() {
 	// Obtain actual date and time, and declare my CWID
 	currentTime := time.Now()
-	CWID := "99715"
+	CWID := "9715"
 	// Print Hello World!
 	fmt.Println("Hello world!")
 	// Print date and time, as well as the last 4 digits of my CWID
